@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>js team code review project</title>
+<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<link href="http://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+<header>
+	<h1>logo</h1>
+	<nav>
+		<ul>
+			<li>
+				<a href="#">about</a>
+				<ul>
+					<li><a href="#">menu01</a></li>
+					<li><a href="#">menu02</a></li>
+					<li><a href="#">menu03</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">works</a>
+				<ul>
+					<li><a href="#">menu01</a></li>
+					<li><a href="#">menu02</a></li>
+					<li><a href="#">menu03</a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="#">contact</a>
+				<ul>
+					<li><a href="#">menu01</a></li>
+					<li><a href="#">menu02</a></li>
+					<li><a href="#">menu03</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+</header>
+
+<div class="contents">
+	<section class="slideshow">
+		<ul>
+			<li><a href="#"><img src="img/slide1.jpg" alt="slide1"/></a></li>
+			<li><a href="#"><img src="img/slide2.jpg" alt="slide2"/></a></li>
+			<li><a href="#"><img src="img/slide3.jpg" alt="slide3"/></a></li>
+			<li><a href="#"><img src="img/slide4.jpg" alt="slide4"/></a></li>
+		</ul>
+	</section>
+
+	<section class="tabs">
+		<h3>tabs</h3>
+		<ul class="tabList">
+			<li class="active"><a href="#tab1">kyoto</a></li>
+			<li><a href="#tab2">osaka</a></li>
+			<li><a href="#tab3">kobe</a></li>
+		</ul>
+		<ul class="tabBody">
+			<li id="tab1" class="active">
+				<p>京都（きょうと、みやこ、きょうのみやこ、英: Kyōto）は、日本の都市である。</p>
+				<p>都、京ともいい、歴史的には794年に日本の首都に定められた都城・平安京で、当時は日本の政治・文化の中心地であった。</p>
+				<p>東アジアでは古来、歴史的に「天子の住む都」「首都」を意味する普通名詞として京（きょう）、京師（けいし）が多く使用されていた。西晋時代に世宗（司馬師）の諱である「師」の文字を避けて京都（けいと）と言うようになり、以後は京、京師、京都などの呼び名が用いられた。</p>
+			</li>
+			<li id="tab2">
+				<p>大阪（おおさか、英: Ōsaka）は、日本の近畿地方（関西地方）の地名である。西日本最大の都市である大阪市（狭義の大阪）と、大阪市を府庁所在地とする大阪府を指す地域名称であり、広い意味では大阪市を中心とする京阪神（畿内、大阪都市圏、関西圏）を漠然と総称することにも使われる。関西の経済・文化の中心地で、古くは大坂と表記した。</p>
+				<p>古都・副都としての歴史を持ち、長らく首都東京に次ぐ都市として、経済、文化、バックアップ面で重要な役割を担っている。大阪府は日本国第3の都市圏にある愛知県を域内総生産で上回り、アジアのゲートと呼ばれる福岡県に対しては域内にそれぞれ存する関西国際空港と福岡空港の国際線旅客数、国際貨物取扱量で関西国際空港が大きく上回る。</p>
+				<p>大阪は都市単位の経済規模で世界3位。都市圏人口で世界12位のメガシティと評価されている。</p>
+			</li>
+			<li id="tab3">
+				<p>神戸市（こうべし）は、兵庫県南部に位置する兵庫県の県庁所在地である。垂水区・須磨区・長田区・兵庫区・中央区・灘区・東灘区・北区・西区から構成される政令指定都市である。</p>
+				<p>海と山の迫る東西に細長い市街地を持ち、十分な水深の有る扇状の入り江部に発展した理想的な港湾・神戸港を有する日本を代表する港町である。</p>
+				<p>市域中央に横たわる六甲山地の山上の高原一帯は日本における別荘・リゾート等の発祥地として有名であり、六甲北麓の有馬温泉は日本三古湯の一つとして古来より名高い。</p>
+			</li>
+		</ul>
+	</section>
+
+	<section class="photos">
+		<h3>photos</h3>
+		<ul>
+			<li><a href="img/photo1.jpg"><img src="img/photo1s.jpg" alt="photo1"/></a></li>
+			<li><a href="img/photo2.jpg"><img src="img/photo2s.jpg" alt="photo2"/></a></li>
+			<li><a href="img/photo3.jpg"><img src="img/photo3s.jpg" alt="photo3"/></a></li>
+			<li><a href="img/photo4.jpg"><img src="img/photo4s.jpg" alt="photo4"/></a></li>
+			<li><a href="img/photo5.jpg"><img src="img/photo5s.jpg" alt="photo5"/></a></li>
+		</ul>
+	</section>
+
+	<section class="about">
+		<h3>about</h3>
+		<ul>
+			<li>以下の5箇所、JavaScript を実装しましょう
+				<ol>
+					<li>ヘッダのメニューを、マウス操作で開閉させてください</li>
+					<li>メインビジュアルには、スライドショーのプラグインを導入してください</li>
+					<li>tabs の部分は、クリックによるタブ切り替えです (高さ可変) </li>
+					<li>photos の部分は、ライトボックス的なプラグインを導入してください</li>
+					<li>トップに戻るボタンは、クリックすると一番上までスクロールします<br />(ボタンは最初から表示させるのではなく、ある程度下にスクロールしたら出現させたい)</li>
+				</ol>
+			</li>
+			<li>html や scss/css の書き換えは自由です</li>
+			<li>対象ブラウザは IE8からがいい？ IE9からがいい？ (+ FireFox, Chrome の最新版)</li>
+			<li>スマートフォン対応は今回は考えません</li>
+			<li>細かい所はみなさまのセンスにおまかせします</li>
+		</ul>
+	</section>
+</div>
+
+
+<a id="pageTop" href="#"><img src="img/btn_top.png" alt="ページトップに移動" /></a>
+
+
+<footer>
+	&copy; TAM inc. / js technical team 2014
+</footer>
+
+</body>
+</html>
