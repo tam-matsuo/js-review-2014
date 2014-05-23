@@ -23,7 +23,8 @@ img {
 body {
 	color: #333;
 	background-color: #fff;
-	font-family: 'Pontano Sans', sans-serif;
+	font-family: YuGothic, '游ゴシック', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, sans-serif;
+	line-height: 1.8;
 }
 a {
 	color: #48c;
@@ -121,6 +122,10 @@ header {
 		border-bottom: 1px solid #ccc;
 		box-shadow: 0 1px 0 #eee;
 	}
+	
+	h4 {
+		margin-bottom: 15px;
+	}
 }
 
 
@@ -215,7 +220,8 @@ header {
  */
 .about {
 	ul, ol {
-		margin-left: 2em;
+		margin: 1em 1em 1em 2em;
+
 		li {
 			margin: 5px 10px 5px;
 		}
