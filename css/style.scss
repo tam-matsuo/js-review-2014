@@ -24,7 +24,7 @@ body {
 	color: #333;
 	background-color: #fff;
 	font-family: YuGothic, '游ゴシック', 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, sans-serif;
-	line-height: 1.8;
+	line-height: 2;
 }
 a {
 	color: #48c;
@@ -125,6 +125,14 @@ header {
 	
 	h4 {
 		margin-bottom: 15px;
+	}
+
+	hr {
+		height: 0;
+		margin-top: 25px;
+		margin-bottom: 25px;
+		border: 0;
+		border-top: 1px solid #eee;
 	}
 }
 
